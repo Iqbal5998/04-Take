@@ -1,0 +1,513 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	scroll-behavior: smooth;
+}
+ul,ol{
+	list-style: none;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+header{
+	
+}
+.container{
+	margin: 0 auto;
+	max-width: 80%;
+}
+body{
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+#header_part{
+	/*background-color: #fff;*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+	
+
+/*banner part css start here*/
+#banner-part{
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    padding: 55px 0;
+}
+.banner_overlay{
+	padding: 400px 0;
+	background-color: rgba(0,0,0,.6);
+}
+.banner_cont{
+
+}
+.banner_cont h2{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 45px;
+	color: #fff;
+	padding-bottom: 24px;
+
+}
+.banner_cont p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 35px;
+	color: #fff;
+}
+
+/*banner part css end here*/
+/*about part css end here*/
+
+#about_part{
+	padding: 100px 0;
+}
+.about_cont h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 45px;
+	color: #000;
+	padding-bottom: 30px; 
+}
+.about_cont p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #b5b5b5;
+	padding-bottom: 24px;
+}
+.find_more p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	color: #b5b5b5;
+	padding-bottom: 60px;
+}
+.find_more i{
+	padding-top: 10px;
+}
+
+
+.about_img{
+	position: relative;
+
+}
+.about_img img{
+	position: absolute;
+	display: flex;
+	margin-top: -775px;
+}
+.about_img-cont p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #b5b5b5;
+	padding-bottom: 24px;
+}
+.about_img-cont{
+	padding-top: 200px;
+}
+/*about part css end here*/
+
+/*gallery part css start here */
+#gallery_par{
+	padding: 80px 0;
+}
+.galry_cont{
+	background-color: #f5989d;
+	margin-bottom: 0px;
+}
+.galry_cont h3{
+	color: #fff;
+	padding: 55px  170px 25px 42px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+}
+.galry_cont p{
+	color: #fff;
+	padding: 0  57px 42px 42px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+.galry2_cont{
+	background-color: #615f7d;
+}
+.galry2_cont h3{
+	color: #fff;
+	padding: 55px  170px 25px 42px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+}
+.galry2_cont p{
+	color: #fff;
+	padding: 0  57px 42px 42px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+.gallery_img{
+	position: relative;
+}
+.gallery_overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%
+	width: 100%;
+	color: rgba(0,0,0,0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.galry4_cont{
+	background-color: #615f7d;
+	background-image: url(../img/image02.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -16px;
+}
+.galry4_cont h3{
+	color: #fff;
+	padding: 55px  170px 25px 42px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+}
+.galry4_cont p{
+	color: #fff;
+	padding: 12px 57px 42px 42px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+.gallery_overlay h3{
+	color: #fff;
+	/*padding: 55px  170px 25px 42px;*/
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+}
+.gallery_overlay p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	padding: 124px 40px 20px 40px;
+}
+.galry3_cont{
+	margin-top: -16px;
+	background-color: #82ca9c;
+	margin-right: 8px;
+}
+.galry3_cont h3{
+	color: #fff;
+	padding: 55px  170px 25px 42px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+}
+.galry3_cont p{
+	color: #fff;
+	padding: 0  57px 42px 42px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+/*gallery part css start here */
+
+/*details css html start here*/
+
+#details_part{
+	padding: 80px 0;
+}
+.details_heading h3{
+	color: #222626;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	padding-bottom: 60px;
+}
+
+.detls_cont h3{
+	color: #67676d;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+.detls_cont p{
+	color: #b5b5b5;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	padding-right: 10px;
+}
+
+/*details css html start here*/
+/*back_car part css start here*/
+#back_car{
+	padding-top: 100px;
+	background-image: url(../img/banner2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.back_cont h3{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 54px;
+	padding-top: 450px;
+}
+.back_cont p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 25px;
+	padding-top: 30px;
+}
+.back_cont h5{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	padding-top: 25px;
+	padding-bottom: 140px;
+}
+
+/*back_car part css end here*/
+
+/*reason part css start here*/
+#reason_part{
+	padding: 128px 0;
+	background-color: #82ca9c;
+}
+.reason_heading h3{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	padding-bottom: 60px;
+}
+
+.reason_cont h3{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+.reason_cont p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	padding-right: 10px;
+}
+
+/*reason part css end here*/
+
+/*team_plan part start end here*/
+#team_plan{
+	background-color: #f6f7fa;
+	padding-top: 103px;
+	padding-bottom: 140px;
+}
+.team_cont a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 14px;
+	background-color: #e1e1e1;
+	border-radius: 5px;
+	padding: 8px 17px;
+	text-transform: uppercase;
+}
+.team_cont h3{
+	color: #2e3b4e;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 31px;
+	padding: 23px 0;
+	/*padding-bottom: 30px;*/
+}
+.team_cont p{
+	color: #91a4b2;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	padding-right: 132px;
+	line-height: 30px;
+}
+.buy_cont{
+	padding-top: 30px;
+}
+.buy_cont a{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #fff;
+	background-color: #82ca9c;
+	border-radius: 5px;
+	padding: 16px 40px;
+}
+.buy-icon{
+	/*float: left;*/
+	padding-top: 20px;
+}
+.buy-icon i{
+	color: #c5c5c5;
+	font-size: 25px;
+	padding: 20px 14px;
+}
+.team_main{
+	
+}
+.team_main:hover{
+	width: 580px
+	height: 380px;
+	background-color: #fff;
+	box-shadow: 0 0  20px #eaebee;
+	padding: 20px 20px;
+	cursor: pointer;
+	transition: all linear .3s;
+}
+
+
+
+/*team_plan part css end here*/
+
+
+
+/*footer css html start here*/
+#footer_part{
+	padding: 100px 0;
+	background-color: #192431;
+	
+}
+.footer_cont h3{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	padding-top: 160px;
+}
+.footer_cont p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	padding-top: 30px;
+	padding-right: 60px;
+	padding-bottom: 75px;
+	line-height: 25px;
+}
+.input_field{
+	width: 400px;
+	height: 60px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding-right: 10px;
+}
+.form_cont h3{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	padding-top: 160px;
+}
+.form_cont p{
+	color: #57697f;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+.ftr_con h3{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	/*padding-top: 160px;*/
+}
+.ftr_con p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	padding-right: 140px;
+	
+}
+/*footer css html start here*/
+
+
+/*with_us part css start here*/
+
+#copy-right{
+	background-color: #000;
+	padding: 36px 0;
+}
+.copy_cont{
+	color: #fff;
+}
+
+
+/*footer part css end here*/
+
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
